@@ -10,7 +10,7 @@ if(session_id() == '' || !isset($_SESSION)){session_start();}
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BOLT Sports Shop</title>
+    <title>E-Shop</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
@@ -27,11 +27,11 @@ if(session_id() == '' || !isset($_SESSION)){session_start();}
       <section class="top-bar-section">
       <!-- Right Nav Section -->
         <ul class="right">
-          <li><a href="about.php">About</a></li>
+          
           <li><a href="products.php">Products</a></li>
           <li><a href="cart.php">View Cart</a></li>
           <li><a href="orders.php">My Orders</a></li>
-          <li><a href="contact.php">Contact</a></li>
+         
           <?php
 
           if(isset($_SESSION['username'])){
@@ -57,7 +57,7 @@ if(session_id() == '' || !isset($_SESSION)){session_start();}
 
 
         <footer style="margin-top:10px;">
-           <p style="text-align:center; font-size:0.8em;">&copy; BOLT Sports Shop. All Rights Reserved.</p>
+          
         </footer>
 
       </div>
