@@ -66,7 +66,7 @@ if(isset($_SESSION["username"])){
               <label for="right-label" class="right inline">Email</label>
             </div>
             <div class="small-8 columns">
-              <input type="email" id="right-label" placeholder="nayantronix@gmail.com" name="username">
+              <input type="email" id="right-label" placeholder="rishi@gmail.com" name="username">
             </div>
           </div>
           <div class="row">
@@ -96,7 +96,7 @@ if(isset($_SESSION["username"])){
       <div class="small-12">
 
         <footer>
-           <p style="text-align:center; font-size:0.8em;">&copy; BOLT Sports Shop. All Rights Reserved.</p>
+       
         </footer>
 
       </div>
